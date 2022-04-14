@@ -1,24 +1,26 @@
 #include "main.h"
 
 /**
- * print_line - prints a line using _
- * print \n when n = 0 or n < 0
- * Return: null
+ * print_line - prints n number of _
+ * prints \n if n is less than 0
+ * @n: is the number that decide the number of _
+ * Return: doesnt return
  */
 
 void print_line(int n)
 {
-	if(n > 0)
-	{
-	for(int i = n;i > 0; i--)
-	{
-		_putchar('_');
-	}
-	_putchar('\n');
-	}
-	else
+	int i;
+
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
+	else
+	{
+		for (i = 0; i < n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
 }
-       
