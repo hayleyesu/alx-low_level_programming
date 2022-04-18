@@ -9,17 +9,17 @@
 void rev_string(char *s)
 {
 	int count = 0;
-	
-	while (*s != '\0')
+	char str[100] = *s;
+	int i,j;
+	char rev[100];
+	while (str[count] != '\0')
 	{
-		count++
-		s++;
+		count++;
 	}
-	while (count > 0)
+	j = count - 1;
+	for(i = 0; i < count;i++)
 	{
-		s--;
-		_putchar(*s);
-		count--;
+		rev[i] = str[j];
+		j--;
 	}
 }
-
