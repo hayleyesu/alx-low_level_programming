@@ -10,6 +10,6 @@ void _puts_recursion(char *s)
 	{
 		_putchar('\n');
 	}
-	printf("%s",_puts_recursion());
+	printf("%s",_puts_recursion(s);
 		s++;
 }
