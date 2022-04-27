@@ -2,12 +2,14 @@
 
 /**
  * _puts_recursion - prints string
+ * @s -string to printed
+ *
  * Return : nothing
  */
 
 void _puts_recursion(char *s)
 {
-	if(*s == '\0')
+	if (*s == '\0')
 	{
 		return;
 	}
