@@ -9,6 +9,14 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d\n",argc);
+	int i;
+	int count = 0;
+
+	for (i = 0;i < argc;i++)
+	{
+		count = count + 1;
+	}
+	
+	printf("%d\n",count);
 	return (0);
 }
