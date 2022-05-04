@@ -3,7 +3,7 @@
 /**
  * alloc_grid - creates a 2d integer grid
  * @width: number of columns
- * @height: number of rows
+ * @height: number of row
  * Return: pointer to grid or null
  **/
 int **alloc_grid(int width, int height)
