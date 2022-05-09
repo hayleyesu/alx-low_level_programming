@@ -1,1 +1,0 @@
-about preprocessor in C
